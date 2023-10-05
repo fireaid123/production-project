@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: ['airbnb', 'plugin:react/recommended', 'plugin:i18next/recommended'],
   parser: '@typescript-eslint/parser',
@@ -34,6 +35,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/button-has-type': 'off',
     'i18next/no-literal-string': ['error', { markupOnly: true }],
+    'max-len': ['error', { code: 300 }],
   },
   globals: {
     __IS_DEV__: true,
