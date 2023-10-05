@@ -35,7 +35,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/button-has-type': 'off',
     'i18next/no-literal-string': ['error', { markupOnly: true }],
-    'max-len': ['error', { code: 300 }],
+    'max-len': ['error', { ignoreComments: true }],
   },
   globals: {
     __IS_DEV__: true,
