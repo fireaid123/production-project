@@ -2,14 +2,12 @@
   height: calc(100vh - var(--navbar-height));
   width: var(--sidebar-width);
   background: var(--inverted-bg-color);
-
   position: relative;
-  transition: width 0.3s
+  transition: width 0.3s;
 }
 
 .collapsed {
   width: var(--sidebar-width-collapsed);
-
 }
 
 .switchers {
@@ -20,5 +18,5 @@
 }
 
 .lang {
-  margin: 0px 0px 0px 20px;
+  margin: 20px;
 }
